@@ -1,0 +1,7 @@
+Bài toán
+Bạn là developer trong team 5 người. Mỗi người tự cài đặt môi trường dev (Node.js, dependencies).
+ Mỗi lần có người mới join → mất 2 giờ hướng dẫn cài đặt. Làm sao để giảm xuống còn 2 phút?
+ Trả lời: 
+ Dùng Docker - Chuẩn DevOps: Đóng gói sẵn môi trường lập trình (Node.js, các dependencies) vào
+  một Docker Container (bằng file Dockerfile và docker-compose.yml). Người mới chỉ cần gõ lệnh docker compose up, 
+ môi trường sẽ tự động khởi tạo giống hệt nhau trên mọi máy tính chỉ trong 2 phút.
